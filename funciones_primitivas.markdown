@@ -1,33 +1,3 @@
-# 25 funciones primitivas de Common Lisp en CLISP
-
-> Sintaxis, funcionamiento, resultados y ejemplos prácticos.
-
-**Nombre:** ____________________________________  
-**Asignatura:** _________________________________  
-**Fecha:** _____________________________________
-
-## Introducción
-
-GNU CLISP es una implementación de Common Lisp que sigue ampliamente el estándar ANSI. El [Common Lisp HyperSpec](https://www.lispworks.com/documentation/HyperSpec/Front/index.htm) es la referencia técnica principal utilizada en esta investigación.
-
-Aunque en cursos introductorios se habla de **funciones primitivas**, el estándar no define una categoría formal con ese nombre. En este documento la expresión se utiliza para referirse a operaciones básicas incorporadas en el lenguaje. Se seleccionaron funciones y accesores invocables como funciones; se dejaron fuera macros, tipos y operadores especiales.
-
-## Cómo leer las fichas
-
-- **Sintaxis:** muestra la forma general de invocación. `&rest` indica que se aceptan cero o más argumentos adicionales.
-- **Resultado:** identifica qué devuelve la función. En Common Lisp, `NIL` representa tanto falso como la lista vacía.
-- **Ejemplo:** utiliza `=>` para indicar el valor producido al evaluar una expresión.
-- **Observación:** presenta un caso especial, una precaución o una diferencia importante.
-
-## Contenido
-
-1. Manejo de listas — 5 funciones
-2. Secuencias y listas — 4 funciones
-3. Predicados de tipo — 4 funciones
-4. Comparación — 4 funciones
-5. Aritmética — 6 funciones
-6. Aplicación de funciones — 2 funciones
-
 ## Manejo de listas
 
 ### 1. `CONS`
